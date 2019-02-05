@@ -11,10 +11,8 @@ public class Constant {
 	public final static String ENDPOINT = "tempconvert.asmx";
 	public final static String HTTPCLIENTCALL = "HttpClient";
 	public final static String RESTCALL = "RestAssured";
-	public final static String REQUESTFILENAMEPREFIX = "CelsiusToFahrenheitRequset";
-	public final static String RESPONSEFILENAMEPREFIX = "CelsiusToFahrenheitResponse";
 	public final static String REQUESTFILEPATH = System.getProperty("user.dir")
-			+ "//src//test//resources//Requests//"+REQUESTFILENAMEPREFIX+".xml";
+			+ "//src//test//resources//Requests//CelsiusToFahrenheitRequset.xml";
 	public final static String RESPONSEFILEPATH = System.getProperty("user.dir")
-			+ "//src//test//resources//Responses//"+RESPONSEFILENAMEPREFIX+".xml";
+			+ "//src//test//resources//Responses//CelsiusToFahrenheitResponse.xml";
 }
