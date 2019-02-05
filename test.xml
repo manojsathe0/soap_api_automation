@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" parallel="false">
+	<test name="setup">
+		<classes>
+			<class name="soap.api.automation.test.APISetup" />
+		</classes>
+	</test>
+	<test name="soaptest">
+		<classes>
+			<class name="soap.api.automation.test.NewTest" />
+		</classes>
+	</test>
+</suite>
